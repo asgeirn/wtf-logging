@@ -24,6 +24,8 @@ logger.warn("What The F*ck just happened?");
 logger.info("JYI it worked fine.");
 logger.debug("Oh by the way -- test this");
 </code>
+</pre>
+<pre>
 22:11:27.965 [main] OMG c.a.blog.logging.WtfLoggerTest - Oh My GOD!
 22:11:27.969 [main] WTF c.a.blog.logging.WtfLoggerTest - What The F*ck just happened?
 22:11:27.969 [main] FYI c.a.blog.logging.WtfLoggerTest - JYI it worked fine.
