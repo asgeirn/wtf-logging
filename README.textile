@@ -14,17 +14,19 @@ I have implemented this for Logback.  To use it, simply add the following to you
 
 You can then use <code>%wtf</code> in your <code><pattern></code> instead of <code>%level</code> to produce this type of result:
 
+<pre>
 <code>
 logger.error("Oh My GOD!");
 logger.warn("What The F*ck just happened?");
-logger.info("JYI it worked fine.");
+logger.info("JFYI it worked fine.");
 logger.debug("Oh by the way -- test this");
 </code>
+</pre>
 
 <pre>
 22:11:27.965 [main] OMG c.a.blog.logging.WtfLoggerTest - Oh My GOD!
 22:11:27.969 [main] WTF c.a.blog.logging.WtfLoggerTest - What The F*ck just happened?
-22:11:27.969 [main] FYI c.a.blog.logging.WtfLoggerTest - JYI it worked fine.
+22:11:27.969 [main] FYI c.a.blog.logging.WtfLoggerTest - JFYI it worked fine.
 22:11:27.969 [main] BTW c.a.blog.logging.WtfLoggerTest - Oh by the way -- test this
 </pre>
  

@@ -11,7 +11,7 @@ public class WtfLoggerTest {
         Logger logger = LoggerFactory.getLogger(getClass());
         logger.error("Oh My GOD!");
         logger.warn("What The F*ck just happened?");
-        logger.info("JYI it worked fine.");
+        logger.info("JFYI it worked fine.");
         logger.debug("Oh by the way -- test this");
     }
 
