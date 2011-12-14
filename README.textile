@@ -7,24 +7,20 @@ John Barnette proposed some revised log levels:
 
 I have implemented this for Logback.  To use it, simply add the following to your logback.xml:
 
-<pre>
 <code>
    <conversionRule conversionWord="wtf" 
                    converterClass="com.asgeirnilsen.blog.logging.WtfLevelConverter" />
 </code>
-</pre>
 
-You can then use <code>%wtf</code> in your <code><pattern></code> instead of <code>%level</code> to produce this type of
-result:
+You can then use <code>%wtf</code> in your <code><pattern></code> instead of <code>%level</code> to produce this type of result:
 
-<pre>
 <code>
 logger.error("Oh My GOD!");
 logger.warn("What The F*ck just happened?");
 logger.info("JYI it worked fine.");
 logger.debug("Oh by the way -- test this");
 </code>
-</pre>
+
 <pre>
 22:11:27.965 [main] OMG c.a.blog.logging.WtfLoggerTest - Oh My GOD!
 22:11:27.969 [main] WTF c.a.blog.logging.WtfLoggerTest - What The F*ck just happened?
