@@ -2,8 +2,8 @@ h1. More Interesting Logging Levels
 
 John Barnette proposed some revised log levels:
 
+<blockquote class="twitter-tweet"><p>Revised log levels proposal: "fyi," "wtf," and "omg."</p>&mdash; John Barnette (@jbarnette) <a href="https://twitter.com/jbarnette/status/144791640589078530" data-datetime="2011-12-08T14:53:11+00:00">December 8, 2011</a></blockquote>
 <script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-<blockquote class="twitter-tweet tw-align-center"><p>Revised log levels proposal: "fyi," "wtf," and "omg."</p>&mdash; John Barnette (@jbarnette) <a href="https://twitter.com/jbarnette/status/144791640589078530" data-datetime="2011-12-08T14:53:11+00:00">December 8, 2011</a></blockquote>
 
 I have implemented this for Logback.  To use it, simply add the following to your logback.xml:
 
