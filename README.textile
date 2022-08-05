@@ -24,8 +24,8 @@ logger.debug("Oh by the way -- test this");
 </pre>
 
 <pre>
-22:11:27.965 [main] OMG c.a.blog.logging.WtfLoggerTest - Oh My GOD!
-22:11:27.969 [main] WTF c.a.blog.logging.WtfLoggerTest - What The F*ck just happened?
-22:11:27.969 [main] FYI c.a.blog.logging.WtfLoggerTest - JFYI it worked fine.
-22:11:27.969 [main] BTW c.a.blog.logging.WtfLoggerTest - Oh by the way -- test this
+10:05:35.993 [main] OMG no.twingine.logging.WtfLoggerTest - Oh My GOD!
+10:05:35.994 [main] WTF no.twingine.logging.WtfLoggerTest - What The F*ck just happened?
+10:05:35.994 [main] FYI no.twingine.logging.WtfLoggerTest - JFYI it worked fine.
+10:05:35.994 [main] BTW no.twingine.logging.WtfLoggerTest - Oh by the way -- test this
 </pre>
