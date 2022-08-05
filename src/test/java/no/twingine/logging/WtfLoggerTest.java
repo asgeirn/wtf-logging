@@ -1,4 +1,4 @@
-package com.asgeirnilsen.blog.logging;
+package no.twingine.logging;
 
 import org.junit.Test;
 import org.slf4j.Logger;

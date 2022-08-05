@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
-  <conversionRule conversionWord="wtf" 
-                  converterClass="com.asgeirnilsen.blog.logging.WtfLevelConverter" />
+  <conversionRule conversionWord="wtf"
+                  converterClass="no.twingine.logging.WtfLevelConverter" />
 
   <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
     <!-- encoders are assigned the type ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->

@@ -8,8 +8,8 @@ John Barnette proposed some revised log levels:
 I have implemented this for Logback.  To use it, simply add the following to your logback.xml:
 
 <code>
-   <conversionRule conversionWord="wtf" 
-                   converterClass="com.asgeirnilsen.blog.logging.WtfLevelConverter" />
+   <conversionRule conversionWord="wtf"
+                   converterClass="no.twingine.logging.WtfLevelConverter" />
 </code>
 
 You can then use <code>%wtf</code> in your <code><pattern></code> instead of <code>%level</code> to produce this type of result:
@@ -29,4 +29,3 @@ logger.debug("Oh by the way -- test this");
 22:11:27.969 [main] FYI c.a.blog.logging.WtfLoggerTest - JFYI it worked fine.
 22:11:27.969 [main] BTW c.a.blog.logging.WtfLoggerTest - Oh by the way -- test this
 </pre>
- 
